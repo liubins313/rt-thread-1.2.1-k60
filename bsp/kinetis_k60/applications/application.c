@@ -66,7 +66,7 @@ int rt_application_init()
     if (init_thread != RT_NULL)
         rt_thread_startup(init_thread);
     
-    thread_sleep_init();
+//    thread_sleep_init();
     
     return 0;
 }
