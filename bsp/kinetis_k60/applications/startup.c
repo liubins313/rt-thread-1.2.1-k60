@@ -80,7 +80,7 @@ void rtthread_startup(void)
 	/* init timer system */
 	rt_system_timer_init();
 
-    rt_system_heap_init((void*)K60_SRAM_BEGIN, (void*)K60_SRAM_END);
+  rt_system_heap_init((void*)K60_SRAM_BEGIN, (void*)K60_SRAM_END);
 
 	/* init scheduler system */
 	rt_system_scheduler_init();
