@@ -153,6 +153,7 @@
 #define RT_USING_DEVICE_IPC
 
 #define FINSH_USING_MSH
+#define FINSH_USING_MSH_ONLY
 
 
 #endif

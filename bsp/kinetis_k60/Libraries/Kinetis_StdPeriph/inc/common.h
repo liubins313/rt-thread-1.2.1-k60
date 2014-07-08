@@ -17,6 +17,8 @@
 #include <stdio.h>
 #endif
 
+#define MK60D10 1
+
 #ifdef MK10D5
 #include "MK10D5.h"
 #elif MK10D10

@@ -347,7 +347,7 @@
             <uSurpInc>0</uSurpInc>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define></Define>
+              <Define>MK60D10 CHK60EVB2 DEBUG</Define>
               <Undefine></Undefine>
               <IncludePath></IncludePath>
             </VariousControls>

@@ -41,10 +41,10 @@ static uint16_t *gRevCh = RT_NULL;
 
 static void UART_ISR(uint16_t byteReceived)
 {
-    static uint16_t ch;
+//    static uint16_t ch;
     /* enter interrupt */
     rt_interrupt_enter();
-    ch = byteReceived;
+//    ch = byteReceived;
     gRevCh = &byteReceived;
     rt_hw_serial_isr(&serial5);
 
@@ -106,7 +106,6 @@ static int kinetis_putc(struct rt_serial_device *serial, char c)
 
 static int kinetis_getc(struct rt_serial_device *serial)
 {
-    uint8_t temp = 0;
 		int c;
      c = -1;
    
