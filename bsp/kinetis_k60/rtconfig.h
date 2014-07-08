@@ -152,4 +152,7 @@
 #define RT_USING_SERIAL
 #define RT_USING_DEVICE_IPC
 
+#define FINSH_USING_MSH
+
+
 #endif

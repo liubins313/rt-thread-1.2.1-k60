@@ -1148,8 +1148,7 @@ ARM Macro Assembler    Page 18
 Command Line: --debug --xref --cpu=Cortex-M4 --apcs=interwork --depend=.\build\
 startup_MK60D10.d -o.\build\startup_MK60D10.o -IC:\Keil\ARM\RV31\Inc -IC:\Keil\
 ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Freescale\K60 --list=.\build\startup_MK60D1
-0.lst Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\arm\startup_MK60D10
-.s
+0.lst Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60D10.s
 
 
 
@@ -1160,8 +1159,8 @@ STACK 00000000
 
 Symbol: STACK
    Definitions
-      At line 21 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 21 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
       None
 Comment: STACK unused
@@ -1169,23 +1168,23 @@ Stack_Mem 00000000
 
 Symbol: Stack_Mem
    Definitions
-      At line 22 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 22 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
-      At line 760 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 762 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 760 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 762 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 __initial_sp 00000400
 
 Symbol: __initial_sp
    Definitions
-      At line 23 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 23 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
-      At line 49 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 49 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
 Comment: __initial_sp used once
 3 symbols
 
@@ -1198,8 +1197,8 @@ HEAP 00000000
 
 Symbol: HEAP
    Definitions
-      At line 32 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 32 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
       None
 Comment: HEAP unused
@@ -1207,20 +1206,20 @@ Heap_Mem 00000000
 
 Symbol: Heap_Mem
    Definitions
-      At line 34 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 34 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
-      At line 759 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 761 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 759 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 761 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 __heap_base 00000000
 
 Symbol: __heap_base
    Definitions
-      At line 33 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 33 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
       None
 Comment: __heap_base unused
@@ -1228,8 +1227,8 @@ __heap_limit 00000400
 
 Symbol: __heap_limit
    Definitions
-      At line 35 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 35 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
       None
 Comment: __heap_limit unused
@@ -1244,8 +1243,8 @@ RESET 00000000
 
 Symbol: RESET
    Definitions
-      At line 44 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 44 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
       None
 Comment: RESET unused
@@ -1253,25 +1252,25 @@ __Vectors 00000000
 
 Symbol: __Vectors
    Definitions
-      At line 49 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 49 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
-      At line 45 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 309 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 45 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 309 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 __Vectors_End 00000400
 
 Symbol: __Vectors_End
    Definitions
-      At line 307 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 307 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 46 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 309 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 46 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 309 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 3 symbols
 
@@ -1284,8 +1283,8 @@ Relocatable symbols
 
 Symbol: .ARM.__at_0x400
    Definitions
-      At line 457 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 457 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
       None
 Comment: .ARM.__at_0x400 unused
@@ -1300,8 +1299,8 @@ Relocatable symbols
 
 Symbol: .text
    Definitions
-      At line 464 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 464 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
       None
 Comment: .text unused
@@ -1309,49 +1308,49 @@ ADC0_IRQHandler 0000001A
 
 Symbol: ADC0_IRQHandler
    Definitions
-      At line 688 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 688 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 124 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 582 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 124 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 582 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 ADC1_IRQHandler 0000001A
 
 Symbol: ADC1_IRQHandler
    Definitions
-      At line 689 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 689 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 125 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 583 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 125 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 583 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 BusFault_Handler 0000000E
 
 Symbol: BusFault_Handler
    Definitions
-      At line 497 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 497 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 54 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 498 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 54 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 498 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN0_Bus_Off_IRQHandler 0000001A
 
 Symbol: CAN0_Bus_Off_IRQHandler
    Definitions
-      At line 661 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 661 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 97 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 555 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 97 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 555 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN0_Error_IRQHandler 0000001A
 
@@ -1363,61 +1362,61 @@ Relocatable symbols
 
 Symbol: CAN0_Error_IRQHandler
    Definitions
-      At line 662 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 662 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 98 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 556 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 98 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 556 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN0_ORed_Message_buffer_IRQHandler 0000001A
 
 Symbol: CAN0_ORed_Message_buffer_IRQHandler
    Definitions
-      At line 660 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 660 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 96 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 554 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 96 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 554 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN0_Rx_Warning_IRQHandler 0000001A
 
 Symbol: CAN0_Rx_Warning_IRQHandler
    Definitions
-      At line 664 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 664 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 100 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 558 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 100 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 558 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN0_Tx_Warning_IRQHandler 0000001A
 
 Symbol: CAN0_Tx_Warning_IRQHandler
    Definitions
-      At line 663 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 663 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 99 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 557 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 99 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 557 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN0_Wake_Up_IRQHandler 0000001A
 
 Symbol: CAN0_Wake_Up_IRQHandler
    Definitions
-      At line 665 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 665 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 101 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 559 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 101 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 559 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN1_Bus_Off_IRQHandler 0000001A
 
@@ -1429,61 +1428,61 @@ Relocatable symbols
 
 Symbol: CAN1_Bus_Off_IRQHandler
    Definitions
-      At line 669 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 669 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 105 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 563 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 105 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 563 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN1_Error_IRQHandler 0000001A
 
 Symbol: CAN1_Error_IRQHandler
    Definitions
-      At line 670 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 670 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 106 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 564 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 106 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 564 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN1_ORed_Message_buffer_IRQHandler 0000001A
 
 Symbol: CAN1_ORed_Message_buffer_IRQHandler
    Definitions
-      At line 668 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 668 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 104 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 562 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 104 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 562 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN1_Rx_Warning_IRQHandler 0000001A
 
 Symbol: CAN1_Rx_Warning_IRQHandler
    Definitions
-      At line 672 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 672 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 108 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 566 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 108 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 566 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CAN1_Tx_Warning_IRQHandler 0000001A
 
 Symbol: CAN1_Tx_Warning_IRQHandler
    Definitions
-      At line 671 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 671 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 107 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 565 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 107 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 565 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 
 
@@ -1495,61 +1494,61 @@ CAN1_Wake_Up_IRQHandler 0000001A
 
 Symbol: CAN1_Wake_Up_IRQHandler
    Definitions
-      At line 673 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 673 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 109 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 567 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 109 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 567 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CMP0_IRQHandler 0000001A
 
 Symbol: CMP0_IRQHandler
    Definitions
-      At line 690 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 690 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 126 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 584 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 126 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 584 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CMP1_IRQHandler 0000001A
 
 Symbol: CMP1_IRQHandler
    Definitions
-      At line 691 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 691 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 127 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 585 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 127 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 585 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CMP2_IRQHandler 0000001A
 
 Symbol: CMP2_IRQHandler
    Definitions
-      At line 692 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 692 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 128 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 586 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 128 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 586 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 CMT_IRQHandler 0000001A
 
 Symbol: CMT_IRQHandler
    Definitions
-      At line 696 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 696 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 132 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 590 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 132 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 590 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 
 
@@ -1561,254 +1560,254 @@ DAC0_IRQHandler 0000001A
 
 Symbol: DAC0_IRQHandler
    Definitions
-      At line 712 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 712 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 148 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 606 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 148 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 606 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DAC1_IRQHandler 0000001A
 
 Symbol: DAC1_IRQHandler
    Definitions
-      At line 713 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 713 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 149 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 607 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 149 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 607 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA0_IRQHandler 0000001A
 
 Symbol: DMA0_IRQHandler
    Definitions
-      At line 631 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 631 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 67 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 525 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 67 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 525 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA10_IRQHandler 0000001A
 
 Symbol: DMA10_IRQHandler
    Definitions
-      At line 641 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 641 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 77 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 535 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 77 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 535 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA11_IRQHandler 0000001A
 
 Symbol: DMA11_IRQHandler
    Definitions
-      At line 642 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 642 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 78 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 536 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
+      At line 78 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 536 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
 
 
 
 ARM Macro Assembler    Page 6 Alphabetic symbol ordering
 Relocatable symbols
 
-\arm\startup_MK60D10.s
+0D10.s
 
 DMA12_IRQHandler 0000001A
 
 Symbol: DMA12_IRQHandler
    Definitions
-      At line 643 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 643 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 79 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 537 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 79 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 537 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA13_IRQHandler 0000001A
 
 Symbol: DMA13_IRQHandler
    Definitions
-      At line 644 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 644 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 80 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 538 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 80 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 538 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA14_IRQHandler 0000001A
 
 Symbol: DMA14_IRQHandler
    Definitions
-      At line 645 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 645 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 81 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 539 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 81 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 539 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA15_IRQHandler 0000001A
 
 Symbol: DMA15_IRQHandler
    Definitions
-      At line 646 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 646 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 82 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 540 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 82 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 540 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA1_IRQHandler 0000001A
 
 Symbol: DMA1_IRQHandler
    Definitions
-      At line 632 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 632 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 68 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 68 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
 
 
 
 ARM Macro Assembler    Page 7 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 526 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 526 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA2_IRQHandler 0000001A
 
 Symbol: DMA2_IRQHandler
    Definitions
-      At line 633 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 633 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 69 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 527 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 69 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 527 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA3_IRQHandler 0000001A
 
 Symbol: DMA3_IRQHandler
    Definitions
-      At line 634 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 634 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 70 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 528 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 70 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 528 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA4_IRQHandler 0000001A
 
 Symbol: DMA4_IRQHandler
    Definitions
-      At line 635 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 635 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 71 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 529 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 71 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 529 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA5_IRQHandler 0000001A
 
 Symbol: DMA5_IRQHandler
    Definitions
-      At line 636 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 636 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 72 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 530 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 72 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 530 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA6_IRQHandler 0000001A
 
 Symbol: DMA6_IRQHandler
    Definitions
-      At line 637 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 637 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 73 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
+      At line 73 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
 
 
 
 ARM Macro Assembler    Page 8 Alphabetic symbol ordering
 Relocatable symbols
 
-arm\startup_MK60D10.s
-      At line 531 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+D10.s
+      At line 531 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA7_IRQHandler 0000001A
 
 Symbol: DMA7_IRQHandler
    Definitions
-      At line 638 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 638 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 74 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 532 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 74 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 532 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA8_IRQHandler 0000001A
 
 Symbol: DMA8_IRQHandler
    Definitions
-      At line 639 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 639 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 75 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 533 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 75 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 533 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA9_IRQHandler 0000001A
 
 Symbol: DMA9_IRQHandler
    Definitions
-      At line 640 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 640 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 76 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 534 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 76 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 534 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DMA_Error_IRQHandler 0000001A
 
 Symbol: DMA_Error_IRQHandler
    Definitions
-      At line 647 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 647 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 83 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 541 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 83 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 541 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DebugMon_Handler 00000014
 
 Symbol: DebugMon_Handler
    Definitions
-      At line 511 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 511 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
 
 
@@ -1816,323 +1815,323 @@ Symbol: DebugMon_Handler
 ARM Macro Assembler    Page 9 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 61 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 512 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 61 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 512 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 DefaultISR 0000001A
 
 Symbol: DefaultISR
    Definitions
-      At line 735 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 735 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 171 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 172 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 173 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 174 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 175 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 176 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 177 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 178 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 179 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 180 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 181 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 182 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 183 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 184 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 185 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 186 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 187 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 188 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 189 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 190 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 191 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 192 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 193 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 194 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
+      At line 171 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 172 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 173 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 174 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 175 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 176 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 177 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 178 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 179 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 180 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 181 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 182 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 183 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 184 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 185 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 186 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 187 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 188 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 189 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 190 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 191 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 192 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 193 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 194 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
 
 
 
 ARM Macro Assembler    Page 10 Alphabetic symbol ordering
 Relocatable symbols
 
-\arm\startup_MK60D10.s
-      At line 195 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 196 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 197 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 198 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 199 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 200 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 201 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 202 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 203 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 204 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 205 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 206 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 207 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 208 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 209 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 210 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 211 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 212 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 213 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 214 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 215 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 216 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 217 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 218 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 219 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 220 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 221 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 222 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 223 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+0D10.s
+      At line 195 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 196 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 197 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 198 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 199 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 200 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 201 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 202 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 203 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 204 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 205 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 206 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 207 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 208 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 209 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 210 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 211 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 212 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 213 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 214 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 215 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 216 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 217 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 218 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 219 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 220 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 221 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 222 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 223 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 
 
 ARM Macro Assembler    Page 11 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 224 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 225 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 226 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 227 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 228 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 229 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 230 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 231 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 232 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 233 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 234 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 235 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 236 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 237 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 238 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 239 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 240 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 241 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 242 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 243 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 244 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 245 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 246 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 247 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 248 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 249 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 250 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 251 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 252 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 253 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
+      At line 224 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 225 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 226 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 227 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 228 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 229 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 230 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 231 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 232 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 233 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 234 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 235 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 236 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 237 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 238 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 239 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 240 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 241 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 242 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 243 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 244 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 245 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 246 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 247 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 248 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 249 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 250 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 251 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 252 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 253 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
 
 
 
 ARM Macro Assembler    Page 12 Alphabetic symbol ordering
 Relocatable symbols
 
-\arm\startup_MK60D10.s
-      At line 254 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 255 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 256 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 257 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 258 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 259 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 260 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 261 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 262 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 263 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 264 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 265 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 266 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 267 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 268 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 269 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 270 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 271 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 272 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 273 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 274 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 275 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 276 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 277 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 278 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 279 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 280 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 281 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 282 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+0D10.s
+      At line 254 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 255 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 256 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 257 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 258 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 259 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 260 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 261 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 262 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 263 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 264 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 265 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 266 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 267 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 268 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 269 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 270 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 271 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 272 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 273 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 274 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 275 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 276 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 277 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 278 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 279 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 280 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 281 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 282 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 
 
 ARM Macro Assembler    Page 13 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 283 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 284 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 285 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 286 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 287 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 288 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 289 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 290 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 291 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 292 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 293 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 294 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 295 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 296 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 297 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 298 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 299 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 300 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 301 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 302 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 303 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 304 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 305 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 306 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 629 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 283 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 284 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 285 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 286 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 287 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 288 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 289 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 290 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 291 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 292 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 293 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 294 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 295 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 296 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 297 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 298 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 299 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 300 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 301 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 302 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 303 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 304 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 305 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 306 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 629 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Default_Handler 0000001A
 
 Symbol: Default_Handler
    Definitions
-      At line 524 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 524 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
       None
 
@@ -2146,254 +2145,254 @@ ENET_1588_Timer_IRQHandler 0000001A
 
 Symbol: ENET_1588_Timer_IRQHandler
    Definitions
-      At line 706 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 706 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 142 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 600 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 142 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 600 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 ENET_Error_IRQHandler 0000001A
 
 Symbol: ENET_Error_IRQHandler
    Definitions
-      At line 709 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 709 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 145 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 603 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 145 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 603 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 ENET_Receive_IRQHandler 0000001A
 
 Symbol: ENET_Receive_IRQHandler
    Definitions
-      At line 708 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 708 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 144 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 602 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 144 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 602 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 ENET_Transmit_IRQHandler 0000001A
 
 Symbol: ENET_Transmit_IRQHandler
    Definitions
-      At line 707 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 707 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 143 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 601 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 143 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 601 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 FTFL_IRQHandler 0000001A
 
 Symbol: FTFL_IRQHandler
    Definitions
-      At line 649 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 649 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 85 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 543 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
+      At line 85 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 543 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
 
 
 
 ARM Macro Assembler    Page 15 Alphabetic symbol ordering
 Relocatable symbols
 
-\arm\startup_MK60D10.s
+0D10.s
 
 FTM0_IRQHandler 0000001A
 
 Symbol: FTM0_IRQHandler
    Definitions
-      At line 693 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 693 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 129 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 587 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 129 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 587 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 FTM1_IRQHandler 0000001A
 
 Symbol: FTM1_IRQHandler
    Definitions
-      At line 694 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 694 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 130 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 588 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 130 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 588 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 FTM2_IRQHandler 0000001A
 
 Symbol: FTM2_IRQHandler
    Definitions
-      At line 695 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 695 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 131 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 589 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 131 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 589 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 HardFault_Handler 0000000A
 
 Symbol: HardFault_Handler
    Definitions
-      At line 487 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 487 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 52 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 488 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 52 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 488 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 I2C0_IRQHandler 0000001A
 
 Symbol: I2C0_IRQHandler
    Definitions
-      At line 655 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 655 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 91 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 91 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
 
 
 
 ARM Macro Assembler    Page 16 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 549 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 549 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 I2C1_IRQHandler 0000001A
 
 Symbol: I2C1_IRQHandler
    Definitions
-      At line 656 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 656 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 92 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 550 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 92 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 550 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 I2S0_Rx_IRQHandler 0000001A
 
 Symbol: I2S0_Rx_IRQHandler
    Definitions
-      At line 667 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 667 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 103 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 561 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 103 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 561 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 I2S0_Tx_IRQHandler 0000001A
 
 Symbol: I2S0_Tx_IRQHandler
    Definitions
-      At line 666 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 666 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 102 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 560 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 102 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 560 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 LLW_IRQHandler 0000001A
 
 Symbol: LLW_IRQHandler
    Definitions
-      At line 652 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 652 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 88 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 546 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 88 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 546 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 LPTimer_IRQHandler 0000001A
 
 Symbol: LPTimer_IRQHandler
    Definitions
-      At line 716 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 716 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 152 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
+      At line 152 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
 
 
 
 ARM Macro Assembler    Page 17 Alphabetic symbol ordering
 Relocatable symbols
 
-\arm\startup_MK60D10.s
-      At line 610 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+0D10.s
+      At line 610 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 LVD_LVW_IRQHandler 0000001A
 
 Symbol: LVD_LVW_IRQHandler
    Definitions
-      At line 651 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 651 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 87 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 545 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 87 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 545 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 MCG_IRQHandler 0000001A
 
 Symbol: MCG_IRQHandler
    Definitions
-      At line 715 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 715 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 151 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 609 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 151 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 609 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 MCM_IRQHandler 0000001A
 
 Symbol: MCM_IRQHandler
    Definitions
-      At line 648 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 648 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 84 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 542 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 84 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 542 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 MemManage_Handler 0000000C
 
 Symbol: MemManage_Handler
    Definitions
-      At line 492 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 492 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 53 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 493 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 53 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 493 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 NMI_Handler 00000008
 
 Symbol: NMI_Handler
    Definitions
-      At line 482 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 482 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
 
 
@@ -2401,65 +2400,65 @@ Symbol: NMI_Handler
 ARM Macro Assembler    Page 18 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 51 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 483 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 51 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 483 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PDB0_IRQHandler 0000001A
 
 Symbol: PDB0_IRQHandler
    Definitions
-      At line 703 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 703 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 139 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 597 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 139 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 597 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PIT0_IRQHandler 0000001A
 
 Symbol: PIT0_IRQHandler
    Definitions
-      At line 699 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 699 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 135 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 593 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 135 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 593 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PIT1_IRQHandler 0000001A
 
 Symbol: PIT1_IRQHandler
    Definitions
-      At line 700 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 700 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 136 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 594 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 136 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 594 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PIT2_IRQHandler 0000001A
 
 Symbol: PIT2_IRQHandler
    Definitions
-      At line 701 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 701 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 137 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 595 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 137 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 595 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PIT3_IRQHandler 0000001A
 
 Symbol: PIT3_IRQHandler
    Definitions
-      At line 702 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 702 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 
 
@@ -2467,124 +2466,124 @@ ARM Macro Assembler    Page 19 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 138 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 596 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 138 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 596 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PORTA_IRQHandler 0000001A
 
 Symbol: PORTA_IRQHandler
    Definitions
-      At line 718 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 718 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 154 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 612 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 154 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 612 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PORTB_IRQHandler 0000001A
 
 Symbol: PORTB_IRQHandler
    Definitions
-      At line 719 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 719 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 155 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 613 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 155 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 613 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PORTC_IRQHandler 0000001A
 
 Symbol: PORTC_IRQHandler
    Definitions
-      At line 720 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 720 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 156 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 614 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 156 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 614 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PORTD_IRQHandler 0000001A
 
 Symbol: PORTD_IRQHandler
    Definitions
-      At line 721 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 721 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 157 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 615 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 157 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 615 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PORTE_IRQHandler 0000001A
 
 Symbol: PORTE_IRQHandler
    Definitions
-      At line 722 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
+      At line 722 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
 
 
 
 ARM Macro Assembler    Page 20 Alphabetic symbol ordering
 Relocatable symbols
 
-\arm\startup_MK60D10.s
+0D10.s
    Uses
-      At line 158 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 616 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 158 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 616 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 PendSV_Handler 00000016
 
 Symbol: PendSV_Handler
    Definitions
-      At line 515 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 515 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 63 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 516 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 63 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 516 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 RNG_IRQHandler 0000001A
 
 Symbol: RNG_IRQHandler
    Definitions
-      At line 654 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 654 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 90 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 548 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 90 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 548 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 RTC_IRQHandler 0000001A
 
 Symbol: RTC_IRQHandler
    Definitions
-      At line 697 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 697 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 133 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 591 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 133 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 591 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 RTC_Seconds_IRQHandler 0000001A
 
 Symbol: RTC_Seconds_IRQHandler
    Definitions
-      At line 698 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 698 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 134 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 592 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 134 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 592 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Read_Collision_IRQHandler 0000001A
 
@@ -2596,61 +2595,61 @@ Symbol: Read_Collision_IRQHandler
 ARM Macro Assembler    Page 21 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 650 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 650 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 86 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 544 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 86 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 544 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved102_IRQHandler 0000001A
 
 Symbol: Reserved102_IRQHandler
    Definitions
-      At line 717 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 717 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 153 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 611 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 153 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 611 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved108_IRQHandler 0000001A
 
 Symbol: Reserved108_IRQHandler
    Definitions
-      At line 723 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 723 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 159 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 617 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 159 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 617 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved109_IRQHandler 0000001A
 
 Symbol: Reserved109_IRQHandler
    Definitions
-      At line 724 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 724 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 160 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 618 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 160 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 618 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved111_IRQHandler 0000001A
 
 Symbol: Reserved111_IRQHandler
    Definitions
-      At line 726 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 726 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 162 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 620 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 162 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 620 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved112_IRQHandler 0000001A
 
@@ -2662,61 +2661,61 @@ ARM Macro Assembler    Page 22 Alphabetic symbol ordering
 Relocatable symbols
 
    Definitions
-      At line 727 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 727 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 163 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 621 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 163 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 621 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved113_IRQHandler 0000001A
 
 Symbol: Reserved113_IRQHandler
    Definitions
-      At line 728 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 728 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 164 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 622 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 164 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 622 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved114_IRQHandler 0000001A
 
 Symbol: Reserved114_IRQHandler
    Definitions
-      At line 729 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 729 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 165 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 623 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 165 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 623 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved115_IRQHandler 0000001A
 
 Symbol: Reserved115_IRQHandler
    Definitions
-      At line 730 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 730 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 166 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 624 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 166 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 624 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved116_IRQHandler 0000001A
 
 Symbol: Reserved116_IRQHandler
    Definitions
-      At line 731 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 731 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 167 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 625 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 167 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 625 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved117_IRQHandler 0000001A
 
@@ -2728,61 +2727,61 @@ Relocatable symbols
 
 Symbol: Reserved117_IRQHandler
    Definitions
-      At line 732 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 732 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 168 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 626 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 168 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 626 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved118_IRQHandler 0000001A
 
 Symbol: Reserved118_IRQHandler
    Definitions
-      At line 733 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 733 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 169 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 627 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 169 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 627 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved119_IRQHandler 0000001A
 
 Symbol: Reserved119_IRQHandler
    Definitions
-      At line 734 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 734 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 170 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 628 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 170 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 628 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved59_IRQHandler 0000001A
 
 Symbol: Reserved59_IRQHandler
    Definitions
-      At line 674 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 674 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 110 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 568 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 110 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 568 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reserved95_IRQHandler 0000001A
 
 Symbol: Reserved95_IRQHandler
    Definitions
-      At line 710 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 710 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 146 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 604 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 146 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 604 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Reset_Handler 00000000
 
@@ -2794,61 +2793,61 @@ Relocatable symbols
 
 Symbol: Reset_Handler
    Definitions
-      At line 469 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 469 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 50 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 470 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 50 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 470 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 SDHC_IRQHandler 0000001A
 
 Symbol: SDHC_IRQHandler
    Definitions
-      At line 711 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 711 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 147 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 605 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 147 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 605 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 SPI0_IRQHandler 0000001A
 
 Symbol: SPI0_IRQHandler
    Definitions
-      At line 657 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 657 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 93 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 551 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 93 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 551 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 SPI1_IRQHandler 0000001A
 
 Symbol: SPI1_IRQHandler
    Definitions
-      At line 658 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 658 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 94 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 552 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 94 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 552 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 SPI2_IRQHandler 0000001A
 
 Symbol: SPI2_IRQHandler
    Definitions
-      At line 659 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 659 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 95 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 553 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 95 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 553 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 
 
@@ -2860,61 +2859,61 @@ SVC_Handler 00000012
 
 Symbol: SVC_Handler
    Definitions
-      At line 506 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 506 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 60 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 507 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 60 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 507 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 SWI_IRQHandler 0000001A
 
 Symbol: SWI_IRQHandler
    Definitions
-      At line 725 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 725 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 161 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 619 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 161 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 619 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 SysTick_Handler 00000018
 
 Symbol: SysTick_Handler
    Definitions
-      At line 519 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 519 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 64 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 520 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 64 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 520 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 TSI0_IRQHandler 0000001A
 
 Symbol: TSI0_IRQHandler
    Definitions
-      At line 714 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 714 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 150 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 608 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 150 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 608 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART0_ERR_IRQHandler 0000001A
 
 Symbol: UART0_ERR_IRQHandler
    Definitions
-      At line 677 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 677 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 113 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 571 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 113 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 571 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 
 
@@ -2926,221 +2925,221 @@ UART0_LON_IRQHandler 0000001A
 
 Symbol: UART0_LON_IRQHandler
    Definitions
-      At line 675 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 675 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 111 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 569 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 111 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 569 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART0_RX_TX_IRQHandler 0000001A
 
 Symbol: UART0_RX_TX_IRQHandler
    Definitions
-      At line 676 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 676 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 112 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 570 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 112 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 570 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART1_ERR_IRQHandler 0000001A
 
 Symbol: UART1_ERR_IRQHandler
    Definitions
-      At line 679 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 679 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 115 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 573 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 115 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 573 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART1_RX_TX_IRQHandler 0000001A
 
 Symbol: UART1_RX_TX_IRQHandler
    Definitions
-      At line 678 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 678 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 114 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 572 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 114 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 572 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART2_ERR_IRQHandler 0000001A
 
 Symbol: UART2_ERR_IRQHandler
    Definitions
-      At line 681 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 681 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 117 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 575 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
+      At line 117 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 575 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
 
 
 
 ARM Macro Assembler    Page 27 Alphabetic symbol ordering
 Relocatable symbols
 
-\arm\startup_MK60D10.s
+0D10.s
 
 UART2_RX_TX_IRQHandler 0000001A
 
 Symbol: UART2_RX_TX_IRQHandler
    Definitions
-      At line 680 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 680 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 116 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 574 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 116 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 574 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART3_ERR_IRQHandler 0000001A
 
 Symbol: UART3_ERR_IRQHandler
    Definitions
-      At line 683 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 683 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 119 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 577 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 119 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 577 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART3_RX_TX_IRQHandler 0000001A
 
 Symbol: UART3_RX_TX_IRQHandler
    Definitions
-      At line 682 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 682 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 118 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 576 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 118 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 576 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART4_ERR_IRQHandler 0000001A
 
 Symbol: UART4_ERR_IRQHandler
    Definitions
-      At line 685 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 685 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 121 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 579 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 121 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 579 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART4_RX_TX_IRQHandler 0000001A
 
 Symbol: UART4_RX_TX_IRQHandler
    Definitions
-      At line 684 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 684 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 120 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 120 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 
 
 ARM Macro Assembler    Page 28 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 578 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 578 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART5_ERR_IRQHandler 0000001A
 
 Symbol: UART5_ERR_IRQHandler
    Definitions
-      At line 687 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 687 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 123 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 581 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 123 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 581 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UART5_RX_TX_IRQHandler 0000001A
 
 Symbol: UART5_RX_TX_IRQHandler
    Definitions
-      At line 686 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 686 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 122 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 580 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 122 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 580 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 USB0_IRQHandler 0000001A
 
 Symbol: USB0_IRQHandler
    Definitions
-      At line 704 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 704 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 140 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 598 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 140 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 598 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 USBDCD_IRQHandler 0000001A
 
 Symbol: USBDCD_IRQHandler
    Definitions
-      At line 705 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 705 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 141 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
-      At line 599 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 141 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
+      At line 599 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 UsageFault_Handler 00000010
 
 Symbol: UsageFault_Handler
    Definitions
-      At line 502 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 502 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 55 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
+      At line 55 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
 
 
 
 ARM Macro Assembler    Page 29 Alphabetic symbol ordering
 Relocatable symbols
 
-arm\startup_MK60D10.s
-      At line 503 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+D10.s
+      At line 503 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Watchdog_IRQHandler 0000001A
 
 Symbol: Watchdog_IRQHandler
    Definitions
-      At line 653 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 653 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 89 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 547 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 89 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 547 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 __user_initial_stackheap 0000001C
 
 Symbol: __user_initial_stackheap
    Definitions
-      At line 757 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 757 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 756 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 756 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: __user_initial_stackheap used once
 118 symbols
 
@@ -3153,61 +3152,61 @@ BackDoorK0 000000FF
 
 Symbol: BackDoorK0
    Definitions
-      At line 323 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 323 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 458 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 458 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: BackDoorK0 used once
 BackDoorK1 000000FF
 
 Symbol: BackDoorK1
    Definitions
-      At line 324 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 324 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 458 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 458 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: BackDoorK1 used once
 BackDoorK2 000000FF
 
 Symbol: BackDoorK2
    Definitions
-      At line 325 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 325 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 458 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 458 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: BackDoorK2 used once
 BackDoorK3 000000FF
 
 Symbol: BackDoorK3
    Definitions
-      At line 326 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 326 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 458 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 458 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: BackDoorK3 used once
 BackDoorK4 000000FF
 
 Symbol: BackDoorK4
    Definitions
-      At line 327 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 327 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 459 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 459 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: BackDoorK4 used once
 BackDoorK5 000000FF
 
 Symbol: BackDoorK5
    Definitions
-      At line 328 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 328 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 459 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 459 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 
 
@@ -3219,187 +3218,187 @@ BackDoorK6 000000FF
 
 Symbol: BackDoorK6
    Definitions
-      At line 329 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 329 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 459 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 459 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: BackDoorK6 used once
 BackDoorK7 000000FF
 
 Symbol: BackDoorK7
    Definitions
-      At line 330 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 330 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 459 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 459 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: BackDoorK7 used once
 FDPROT 000000FF
 
 Symbol: FDPROT
    Definitions
-      At line 404 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 404 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 461 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 461 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: FDPROT used once
 FEPROT 000000FF
 
 Symbol: FEPROT
    Definitions
-      At line 418 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 418 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 461 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 461 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: FEPROT used once
 FOPT 000000FF
 
 Symbol: FOPT
    Definitions
-      At line 428 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 428 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 461 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 461 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: FOPT used once
 FPROT0 000000FF
 
 Symbol: FPROT0
    Definitions
-      At line 347 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 347 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 460 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
+      At line 460 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
 
 
 
 ARM Macro Assembler    Page 3 Alphabetic symbol ordering
 Absolute symbols
 
-\arm\startup_MK60D10.s
+0D10.s
 Comment: FPROT0 used once
 FPROT1 000000FF
 
 Symbol: FPROT1
    Definitions
-      At line 361 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 361 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 460 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 460 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: FPROT1 used once
 FPROT2 000000FF
 
 Symbol: FPROT2
    Definitions
-      At line 375 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 375 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 460 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 460 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: FPROT2 used once
 FPROT3 000000FF
 
 Symbol: FPROT3
    Definitions
-      At line 389 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 389 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 460 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 460 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: FPROT3 used once
 FSEC 000000FE
 
 Symbol: FSEC
    Definitions
-      At line 453 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 453 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 461 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 461 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: FSEC used once
 Heap_Size 00000400
 
 Symbol: Heap_Size
    Definitions
-      At line 30 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 30 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
    Uses
-      At line 34 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 761 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 34 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 761 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 Stack_Size 00000400
 
 Symbol: Stack_Size
    Definitions
-      At line 19 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
+      At line 19 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
 
 
 
 ARM Macro Assembler    Page 4 Alphabetic symbol ordering
 Absolute symbols
 
-arm\startup_MK60D10.s
+D10.s
    Uses
-      At line 22 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
-      At line 760 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 22 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
+      At line 760 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 
 __Vectors_Size 00000400
 
 Symbol: __Vectors_Size
    Definitions
-      At line 309 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 309 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 47 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup\
-arm\startup_MK60D10.s
+      At line 47 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK60
+D10.s
 Comment: __Vectors_Size used once
 nFDPROT 00000000
 
 Symbol: nFDPROT
    Definitions
-      At line 403 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 403 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 404 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 404 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: nFDPROT used once
 nFEPROT 00000000
 
 Symbol: nFEPROT
    Definitions
-      At line 417 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 417 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 418 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 418 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: nFEPROT used once
 nFPROT0 00000000
 
 Symbol: nFPROT0
    Definitions
-      At line 346 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 346 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 347 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 347 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: nFPROT0 used once
 nFPROT1 00000000
 
 Symbol: nFPROT1
    Definitions
-      At line 360 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 360 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 361 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 361 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: nFPROT1 used once
 nFPROT2 00000000
 
@@ -3411,21 +3410,21 @@ Absolute symbols
 
 Symbol: nFPROT2
    Definitions
-      At line 374 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 374 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 375 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 375 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: nFPROT2 used once
 nFPROT3 00000000
 
 Symbol: nFPROT3
    Definitions
-      At line 388 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 388 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 389 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 389 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: nFPROT3 used once
 25 symbols
 
@@ -3438,28 +3437,28 @@ SystemInit 00000000
 
 Symbol: SystemInit
    Definitions
-      At line 471 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 471 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 473 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 473 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: SystemInit used once
 __main 00000000
 
 Symbol: __main
    Definitions
-      At line 472 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 472 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
-      At line 475 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 475 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
 Comment: __main used once
 __use_two_region_memory 00000000
 
 Symbol: __use_two_region_memory
    Definitions
-      At line 755 in file Libraries\CMSIS\CM4\DeviceSupport\Kinetis\K60\startup
-\arm\startup_MK60D10.s
+      At line 755 in file Libraries\CMSIS\CM4\DeviceSupport\MDK-ARM\startup_MK6
+0D10.s
    Uses
       None
 Comment: __use_two_region_memory unused

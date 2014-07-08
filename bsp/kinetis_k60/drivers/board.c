@@ -39,8 +39,6 @@ void NVIC_Configuration(void)
 	/* Set the Vector Table base location at 0x00000000 */
     SCB->VTOR = 0 | (0x0 & (uint32_t)0x1FFFFF80);
 #endif
-
-//     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
 }
 
 
