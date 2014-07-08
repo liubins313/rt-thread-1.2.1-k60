@@ -15,8 +15,7 @@
 
 #include <rthw.h>
 #include <rtthread.h>
-
-#include "kinetis_k60.h"
+#include <stdint.h>
 #include "board.h"
 
 /**

@@ -14,10 +14,9 @@
 
 #include <rthw.h>
 #include <rtthread.h>
-
-#include "kinetis_k60.h"
 #include "board.h"
-
+#include "common.h"
+#include <stdint.h>
 /**
  * @addtogroup K60
  */
@@ -68,8 +67,9 @@ void rt_hw_board_init()
 	/* NVIC Configuration */
 	NVIC_Configuration();
 
+	DelayInit();
 	/* Configure the SysTick */
-	SysTick_Config(g_Clocks_Freq.SystemCoreClock/1000);
+//	SysTick_Config(g_Clocks_Freq.SystemCoreClock/1000);
 
 	rt_hw_usart_init();
 #ifdef RT_USING_CONSOLE

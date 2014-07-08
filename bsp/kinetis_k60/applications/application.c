@@ -19,7 +19,6 @@
 
 #include <stdio.h>
 
-#include "kinetis_k60.h"
 #include <board.h>
 #include <rtthread.h>
 #include "thread_sleep.h"
