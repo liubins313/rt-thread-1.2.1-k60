@@ -37,7 +37,7 @@
 
 // <o> Internal SRAM memory size[Kbytes] <8-64>
 //	<i>Default: 128
-#define K60_SRAM_SIZE         64
+#define K60_SRAM_SIZE         128
 #define K60_SRAM_END          (0x1FFF0000 + K60_SRAM_SIZE * 1024)
 
 //#define RT_USING_UART1
