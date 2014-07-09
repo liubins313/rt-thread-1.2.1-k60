@@ -26,8 +26,12 @@
 
 void rt_init_thread_entry(void* parameter)
 {
-		rt_hw_ksz8041_init();
-		rt_components_init();
+#ifdef RT_USING_LWIP
+    eth_system_device_init();
+    rt_hw_ksz8041_init();
+    lwip_system_init();
+    rt_kprintf("TCP/IP initialized!\n");
+#endif
 }
 
 

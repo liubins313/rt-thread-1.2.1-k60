@@ -20,6 +20,9 @@ del *.tra /s
 del *.dep /s           
 del JLinkLog.txt /s
 
+del project* /s
+del ./build/* /s
+
 del *.iex /s
 del *.htm /s
 del *.sct /s
