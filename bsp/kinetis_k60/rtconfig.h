@@ -85,7 +85,7 @@
 /* Maximum sector size to be handled. */
 #define RT_DFS_ELM_MAX_SECTOR_SIZE  512
 
-#define RT_USING_DFS_ROMFS
+//#define RT_USING_DFS_ROMFS
 
 /* the max number of mounted filesystem */
 #define DFS_FILESYSTEMS_MAX			2
@@ -93,7 +93,7 @@
 #define DFS_FD_MAX					4
 
 /* SECTION: lwip, a lighwight TCP/IP protocol stack */
-/* #define RT_USING_LWIP */
+#define RT_USING_LWIP
 /* LwIP uses RT-Thread Memory Management */
 #define RT_LWIP_USING_RT_MEM
 /* Enable ICMP protocol*/
@@ -104,7 +104,7 @@
 #define RT_LWIP_TCP
 /* Enable DNS */
 #define RT_LWIP_DNS
-
+#define RT_LWIP_DEBUG
 /* the number of simulatenously active TCP connections*/
 #define RT_LWIP_TCP_PCB_NUM	5
 
@@ -127,33 +127,25 @@
 #define RT_LWIP_MSKADDR3	0
 
 /* tcp thread options */
-#define RT_LWIP_TCPTHREAD_PRIORITY		12
-#define RT_LWIP_TCPTHREAD_MBOX_SIZE		4
-#define RT_LWIP_TCPTHREAD_STACKSIZE		1024
+#define RT_LWIP_TCPTHREAD_PRIORITY		5
+#define RT_LWIP_TCPTHREAD_MBOX_SIZE		8
+#define RT_LWIP_TCPTHREAD_STACKSIZE		2048
 
 /* ethernet if thread options */
-#define RT_LWIP_ETHTHREAD_PRIORITY		15
-#define RT_LWIP_ETHTHREAD_MBOX_SIZE		4
-#define RT_LWIP_ETHTHREAD_STACKSIZE		512
+#define RT_LWIP_ETHTHREAD_PRIORITY		6
+#define RT_LWIP_ETHTHREAD_MBOX_SIZE		8
+#define RT_LWIP_ETHTHREAD_STACKSIZE		2048
 
 /* TCP sender buffer space */
 #define RT_LWIP_TCP_SND_BUF	8192
 /* TCP receive window. */
 #define RT_LWIP_TCP_WND		8192
 
-#define CHECKSUM_CHECK_TCP              0
-#define CHECKSUM_CHECK_IP               0
-#define CHECKSUM_CHECK_UDP              0
-
-#define CHECKSUM_GEN_TCP                0
-#define CHECKSUM_GEN_IP                 0
-#define CHECKSUM_GEN_UDP                0
-
 #define RT_USING_SERIAL
 #define RT_USING_DEVICE_IPC
 
 #define FINSH_USING_MSH
 #define FINSH_USING_MSH_ONLY
-
+#define RT_USING_COMPONENTS_INIT
 
 #endif

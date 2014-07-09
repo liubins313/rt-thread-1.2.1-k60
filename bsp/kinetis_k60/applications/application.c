@@ -18,32 +18,16 @@
 /*@{*/
 
 #include <stdio.h>
-
 #include <board.h>
 #include <rtthread.h>
 #include "thread_sleep.h"
-
+#include "components.h"
+#include "rtt_ksz8041.h"
 
 void rt_init_thread_entry(void* parameter)
 {
-    /* LwIP Initialization */
-#ifdef RT_USING_LWIP
-    {
-        extern void lwip_sys_init(void);
-
-        /* register ethernetif device */
-        eth_system_device_init();
-
-        rt_hw_stm32_eth_init();
-        /* re-init device driver */
-        rt_device_init_all();
-
-        /* init lwip system */
-        lwip_sys_init();
-        rt_kprintf("TCP/IP initialized!\n");
-    }
-#endif
-    
+		rt_hw_ksz8041_init();
+		rt_components_init();
 }
 
 
@@ -64,9 +48,9 @@ int rt_application_init()
 
     if (init_thread != RT_NULL)
         rt_thread_startup(init_thread);
-    
+
 //    thread_sleep_init();
-    
+
     return 0;
 }
 

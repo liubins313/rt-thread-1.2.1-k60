@@ -17,10 +17,10 @@ static void thread_sleep_entry(void *parameter)
 void thread_sleep_init(void)
 {
     rt_thread_t sleep_thread;
-    
+
     sleep_thread = rt_thread_create("sleep", thread_sleep_entry, RT_NULL,
-        512, 3, 20);
-    
+                                    512, 3, 20);
+
     if(sleep_thread != RT_NULL)
     {
         rt_thread_startup(sleep_thread);
