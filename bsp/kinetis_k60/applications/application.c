@@ -26,11 +26,30 @@
 
 void rt_init_thread_entry(void* parameter)
 {
+#ifdef RT_USING_MODULE
+    rt_system_module_init();
+#endif
+	
 #ifdef RT_USING_LWIP
     eth_system_device_init();
     rt_hw_ksz8041_init();
     lwip_system_init();
     rt_kprintf("TCP/IP initialized!\n");
+#endif
+	
+#ifdef RT_USING_DFS
+	/* initialize the device file system */
+	dfs_init();
+
+#ifdef RT_USING_DFS_ELMFAT
+	/* initialize the elm chan FatFS file system*/
+	elm_init();
+#endif
+
+#if defined(RT_USING_DFS_NFS) && defined(RT_USING_LWIP)
+	/* initialize NFSv3 client file system */
+	nfs_init();
+#endif
 #endif
 }
 
@@ -47,7 +66,7 @@ int rt_application_init()
 #else
     init_thread = rt_thread_create("init",
                                    rt_init_thread_entry, RT_NULL,
-                                   2048, 80, 20);
+                                   2048, 8, 20);
 #endif
 
     if (init_thread != RT_NULL)
